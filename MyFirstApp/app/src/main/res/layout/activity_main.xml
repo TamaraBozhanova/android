@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/red"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id ="@+id/main_text"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/red_button"
+        android:text="@string/red"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/red_button"
+        android:id="@+id/yellow_button"
+        android:text="@string/yellow"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yellow_button"
+        android:id="@+id/green_button"
+        android:text="@string/green"
+        />
+
+</RelativeLayout>
