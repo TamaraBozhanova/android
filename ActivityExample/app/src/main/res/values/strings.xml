@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActivityExample</string>
+    <string name="btn">BUTTON</string>
+    <string name="empty_text"> </string>
+    <string name="sey_hello">Sey Hello</string>
+    <string name="clean_text">Clean Text</string>
+    <string name="text">Hello World!!!</string>
+</resources>

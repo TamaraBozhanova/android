@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wizards.edu.activityexample">
+//application  - это основной тег, в icon указывается путь к картинке,
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+//регистрируем MainActivity как главную
+       <activity android:name=".ClickButtonActivity1">
+           //указываем настройки с помощью intent-filter
+           <intent-filter>
+               <action android:name="android.intent.action.MAIN"/> //указываем, что это главная активити
+               <category android:name="android.intent.category.LAUNCHER"/>//запускаемая категория
+           </intent-filter>
+       </activity>
+
+
+    </application>
+
+
+</manifest>
